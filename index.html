@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title></title>
+</head>
+<body>
+
+  <div id="notify"></div>
+
+  <h1>AJAX Puppy Shelter</h1>
+  <form id="puppy-form">
+    <input type="text" name="puppy[name]" placeholder="Name"><br>
+    <select name="puppy[breed_id]">
+      <option value="1">Poodle</option>
+      <option value="2">Sheepdog</option>
+      <option value="3">Boxer</option>
+      <option value="4">Rottweiler</option>
+    </select>
+    <input type="submit">
+  </form>
+  <br>
+  <h3>Puppy List</h3>
+  <div class="puppy">
+    <a href="" id="refresh-link">Refresh list</a>
+    <ul class="puppy-list">
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

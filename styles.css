@@ -1,0 +1,12 @@
+#notify {
+  width: 100px;
+  height: 20px;
+}
+
+.waiting {
+  background-color: yellow;
+}
+
+.success {
+  background-color: green;
+}
